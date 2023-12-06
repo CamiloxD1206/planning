@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-cartas {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 80px;
+    border: solid 1px rgba(177, 43, 255, 0.663);
+    box-shadow: 0 0 10px rgba(177, 43, 255, 0.663);
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.238);
+}
+
+.carta:hover {
+    background-color: white;
+    color: rgba(177, 43, 255, 0.663);
+}
+
+.barra-cartas {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}

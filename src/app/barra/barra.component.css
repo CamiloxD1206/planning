@@ -1,0 +1,66 @@
+.planning-header {
+    margin-left: 20px;
+    position: fixed;
+    width: 95%;
+    height: 80px;
+    margin: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.title-page {
+    width: 150px;
+    margin-left: 90px;
+    margin-top: 35px;
+    color: white;
+    font-size: medium;
+}
+
+.pragma-icon {
+    width: 110px;
+    height: 90px;
+    margin: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    background-color: #360c71;
+    padding: 20px;
+    box-shadow: inset 0 0 200px 50px rgba(146, 144, 144, 0.9);
+    height: 100%;
+}
+
+.link-button {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border: 0;
+    width: auto;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: x-small;
+    margin: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.user-icon {
+    background-color: aqua;
+    border-radius: 100%;
+    margin-top: 42px;
+    margin-right: 190px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}

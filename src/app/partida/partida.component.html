@@ -1,0 +1,10 @@
+<form (ngSubmit)="guardarDatos()" class="form-user">
+    <div class="title-partida">Nombra la partida</div>
+    <div>
+        <input type="text" class="partida-name" [(ngModel)]="nombrePartida" name="partida-name">
+    </div>
+    <div class="div-button">
+
+        <button type="submit" class="partida-button">Crear Partida</button>
+    </div>
+</form>

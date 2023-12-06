@@ -1,0 +1,19 @@
+<div class="container-user">
+    <form (ngSubmit)="guardarDatos()" class="form-user">
+        <div class="title-user">Tu nombre</div>
+        <div>
+            <input type="text" class="user-name" [(ngModel)]="nombreUsuario" name="partida-name">
+        </div>
+        <div class="radio-group">
+            <label>
+                <input type="radio" [(ngModel)]="opcionSeleccionada" name="opcion" value="Jugador"> Jugador
+            </label>
+            <label>
+                <input type="radio" [(ngModel)]="opcionSeleccionada" name="opcion" value="Espectador"> Espectador
+            </label>
+        </div>
+        <div class="div-button">
+            <button type="submit" class="user-button">Continuar</button>
+        </div>
+    </form>
+</div>
